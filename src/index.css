@@ -1,0 +1,10 @@
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    user-select: none;
+}
+
+#root {
+    height: 100%;
+}

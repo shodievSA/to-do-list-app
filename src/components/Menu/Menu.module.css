@@ -1,0 +1,69 @@
+.menu {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1.5px solid rgb(210, 210, 210);
+    padding-bottom: 10px;
+}
+
+.link {
+    display: flex;
+    height: 40px;
+    width: 240px;
+    align-items: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+
+.link:hover {
+    background-color: rgb(210, 210, 210);
+}
+
+.icon {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1.5px solid rgb(210, 210, 210);
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.add_new_list_button {
+    display: flex;
+    height: 40px;
+    width: 240px;
+    align-items: center;
+    justify-content: start;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+.add_new_list_button:hover {
+    background-color: rgb(210, 210, 210);
+}
+
+.settings {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: end;
+    gap: 10px;
+}

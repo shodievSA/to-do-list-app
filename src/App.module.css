@@ -1,0 +1,11 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.main {
+    display: grid;
+    height: 100%;
+    /* grid-template-columns: 1fr 4fr; */
+    grid-template-rows: 100%;
+}

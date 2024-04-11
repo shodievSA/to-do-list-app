@@ -1,0 +1,155 @@
+.stickyWall {
+    margin: 0px 10px 10px 0px;
+}
+
+.notes {
+    display: flex;
+    column-gap: 40px;
+    height: 85%;
+    overflow-y: auto;
+    border: 1.5px solid rgb(210, 210, 210);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 30px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+.createNoteButton {
+    width: 350px;
+    height: 385px;
+    background-color: rgb(210, 210, 210);
+    border-radius: 5px;
+}
+
+.plusIcon {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+.noteForm {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.inputs {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    top: 30px;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.noteTitleInput {
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+    background-color: inherit;
+    font-weight: 700;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+}
+
+.noteBodyInput {
+    font-size: 18px;
+    background-color: inherit;
+    height: 263px;
+    width: 300px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.pageName {
+    display: flex;
+    height: 15%;
+    align-items: center;
+    font-size: 45px;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 25px;
+}
+
+.saveButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    color: #00A86B;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 28px;
+}
+
+.cancelButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 28px;
+    color: red;
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 350px;
+    height: 385px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: 0px 5px 12.5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    height: 28px;
+}
+
+.menuIcon {
+    font-size: 28px;
+    color: black;
+}
+
+.menuOptions {
+    position: absolute;
+    top: 50px;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.editButton, .deleteButton {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    height: 40px;
+    width: 110px;
+    color: black;
+    font-size: 18px;
+}
+
+.editButton:hover, .deleteButton:hover {
+    background-color: rgb(210, 210, 210);
+}
+
+
+
