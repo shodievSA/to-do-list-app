@@ -1,75 +1,60 @@
-.home {
-    /* gap: 40px; */
+.homePage {
     font-weight: 700;
-    margin: 10px 10px 10px 0px;
-    border-radius: 5px;
-    border: 1.5px solid rgb(220, 220, 220);
+    margin: 30px 0;
+    border-radius: 7.5px;
+    padding: 0 2rem;
+    width: 60%;
+    background-color: white;
 }
 
 .heading {
     display: flex;
     align-items: center;
-    column-gap: 30px;
-    font-size: 25px;
-    margin-left: 30px;
+    gap: 1.5rem;
     height: 15%;
 }
 
-.tasksLeft {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1.5px solid rgb(220, 220, 220);
-    border-radius: 5px;
-    font-size: 30px;
-    width: 50px;
-    height: 50px;
+.heading h1 {
+    font-size: 3rem;
 }
 
-.createTask {
+.tasksLeft {
+    border: 1.5px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    font-size: 1.75rem;
+    padding: 0.5rem;
+}
+
+.createTaskInput {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 25%;
 }
 
-.tasks {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 30px;
-    height: 60%;
-    overflow-y: auto;
-    position: relative;
-    bottom: 30px;
-}
-
-.tasks::-webkit-scrollbar { 
-    display: none; 
-}
-
-.input_container {
+.createTaskInput div {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 55px;
     border-radius: 5px;
     border: 1.5px solid rgb(220, 220, 220);
+    width: 70%;
 }
 
-.main_input {
+.createTaskInput div input {
     height: 50px;
-    width: 90%;
+    width: 100%;
     border: none;
     outline: none;
-    font-size: 25px;
-    margin-left: 15px;
+    font-size: 1.5rem;
+    margin-left: 1rem;
 }
 
 .icon {
-    font-size: 35px;
+    font-size: 2.25rem;
     color: #00A86B;
-    margin-right: 15px;
+    margin-right: 1rem;
     font-weight: 700;
 }
 
@@ -81,6 +66,17 @@
     background-color: #00A86B;
     font-size: 22.5px;
     margin-left: 10px;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    height: 60%;
+    overflow-y: auto;
+    position: relative;
+    bottom: 30px;
 }
 
 .task {
@@ -101,9 +97,9 @@
     margin-left: 10px;
 }
 
-.expand_button {
-    font-size: 30px;
-    rotate: 270deg;
+.removeTask {
+    font-size: 25px;
+    color: red;
 }
 
 .check {
